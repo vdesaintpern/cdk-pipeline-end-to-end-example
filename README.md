@@ -27,6 +27,8 @@ Key file to look at : ./front/front-ci/front-ci.ts
     });
 ```
 
+![alt text](https://github.com/vdesaintpern/cdk-pipeline-end-to-end-example/blob/main/doc/js.png?raw=true)
+
 ## DockerImageAsset
 
 Key file to look at : ./api-ecs/lib/api-ecs-stack.ts
@@ -36,6 +38,7 @@ Key file to look at : ./api-ecs/lib/api-ecs-stack.ts
       directory: "./src/",
     });
 ```
+![alt text](https://github.com/vdesaintpern/cdk-pipeline-end-to-end-example/blob/main/doc/containers.png?raw=true)
 
 ## Code.fromAsset
 
@@ -52,6 +55,7 @@ Key file to look at : ./api-serverless/lib/api-serverless-stack.ts
       }
     });
 ```
+![alt text](https://github.com/vdesaintpern/cdk-pipeline-end-to-end-example/blob/main/doc/serverless.png?raw=true)
 
 ## CDK Pipeline
 
@@ -100,6 +104,8 @@ If you want to deploy it yourself :
 
 This stack usually different lifecycle than the others. So this one hasn't got a pipeline and is to be managed manually.  
 For this example to work fully, you have to create 3 stacks : 1 for dev, 1 for QA, 1 for Production with appropriate envName
+
+![alt text](https://github.com/vdesaintpern/cdk-pipeline-end-to-end-example/blob/main/doc/infra.png?raw=true)
 
 ## What can be improved
 
