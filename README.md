@@ -1,4 +1,4 @@
-# End to end CDK Pipelines example for Webapp and Serverler / container API 
+# End to end CDK Pipelines example for Webapp and Serverless / container API 
 
 This repository covers examples of using CDK pipelines with :
 
